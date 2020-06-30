@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Casablanca</title>
+  <link rel="stylesheet" href="styles/loader.css">
+  <script src="scripts/vendors/pace.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css">
+  <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div id="global-container">
+    <div id="container">
+      <div class="mobile-menu__cover"></div>
+      <header class="header">
+        <div class="header__inner appear up">
+          <div class="logo item">
+            <span class="logo__casablanca">Casablanca</span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li item"><a href="#">About</a></li>
+              <li class="header__li item"><a href="#">Menu</a></li>
+              <li class="header__li item">
+                <a class="btn filled" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="mobile-menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <div id="content">
+        <div class="top">
+          <div class="top__inner appear up">
+            <div class="top__img">
+              <img class="top__image" src="images/top-image.jpg" alt="">
+            </div>
+            <div class="top__text item">
+              <div class="top__title">Casablanca</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="hero__title">Beef</div>
+                <img src="images/image-1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__title">Chicken</div>
+                <img src="images/image-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__title">Sandwich</div>
+                <img src="images/image-3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="hero__footer">
+              <img class="hero__downarrow" src="images/arrow.svg">
+              <span class="hero__scrolltext">scroll</span>
+            </div>
+          </div>
+        </div>
+        <div id="main-content">
+          <aside class="side left">
+            <div class="side__inner">
+              <a class="twitter icon tween-animate-title" href="#">Twitter</a>
+              <a class="fb icon tween-animate-title" href="#">Facebook</a>
+            </div>
+          </aside>
+          <main>
+            <section class="travel">
+              <div class="travel__inner">
+                <div class="travel__img cover-slide">
+                  <img class="img-zoom" src="images/recomend-menu.jpg" alt="">
+                </div>
+                <div class="travel__texts appear left">
+                  <div class="travel__texts-inner ">
+                    <div class="travel__title main-title item">
+                      <span>Recomended</span> <span>Menu</span>
+                    </div>
+                    <div class="travel__sub sub-title item">本日のおすすめメニュー</div>
+                    <div class="travel__description item">
+                      <p>ミートソースパスタに<br>からっと揚げたチキンを添えました</p>
+                      <p>是非、ご賞味ください。</p>
+                    </div>
+                    <div class="travel__btn item">
+                      <button class="btn filled">もっと詳しく</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="popular">
+              <div class="popular__header">
+                <h2 class="main-title tween-animate-title">Popular Menu</h2>
+                <p class="sub-title tween-animate-title">人気のあるメニューです</p>
+              </div>
+              <div class="popular__inner appear up">
+                <div class="popular__container">
+                  <div class="popular__item item">
+                    <div class="popular__img"><img src="images/image-p1.jpg" alt=""></div>
+                    <div class="popular__title">牛肉のグラーシュ</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img"><img src="images/image-p2.jpg" alt=""></div>
+                    <div class="popular__title">スペアリブ</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img"><img src="images/image-p3.jpg" alt=""></div>
+                    <div class="popular__title">アプリコット餃子</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img"><img src="images/image-p4.jpg" alt=""></div>
+                    <div class="popular__title">ココナツミルク</div>
+                  </div>
+                  <div class="popular__btn appear up">
+                    <button class="btn cover-3d item"><span>一覧から探す</span></button>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+      <footer class="footer appear up">
+        <div class="logo item">
+          <span class="logo__casablanca">Casablanca</span>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__ul">
+            <li class="footer__li item"><a href="#">About</a></li>
+            <li class="footer__li item"><a href="#">Contact</a></li>
+            <li class="footer__li item"><a href="#">Menu</a></li>
+            <li class="footer__li item"><a href="#">Sitemap</a></li>
+          </ul>
+          <div class="footer__copyright item">
+            &copy; Naoki Hide
+          </div>
+        </nav>
+      </footer>
+    </div>
+    <nav class="mobile-menu">
+      <div class="logo">
+        <span class="logo__casablanca">Casablanca</span>
+      </div>
+      <ul class="mobile-menu__main">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">
+            <span class="main-title">Menu</span>
+            <span class="sub-title">メニューの一覧</span>
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">
+            <span class="main-title">About</span>
+            <span class="sub-title">私たちについて</span>
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">
+            <span class="main-title">Contact</span>
+            <span class="sub-title">コンタクト方法</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="scripts/vendors/swiper.min.js"></script>
+  <script src="scripts/vendors/TweenMax.min.js"></script>
+  <script src="scripts/vendors/scroll-polyfill.js"></script>
+  <script src="scripts/libs/scroll.js"></script>
+  <script src="scripts/libs/text-animation.js"></script>
+  <script src="scripts/libs/hero-slider.js"></script>
+  <script src="scripts/libs/mobile-menu.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
